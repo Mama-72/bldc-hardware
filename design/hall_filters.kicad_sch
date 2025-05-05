@@ -1,0 +1,2022 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "075bdd71-e282-40c6-8d0b-de0ba81e724e")
+	(paper "A4")
+	(title_block
+		(title "BLDC Driver 4.11")
+		(date "21 aug 2015")
+		(rev "4.12")
+		(company "Benjamin Vedder")
+	)
+	(lib_symbols
+		(symbol "BLDC_4-rescue:C-RESCUE-BLDC_4"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C-RESCUE-BLDC_4"
+				(at 0.1524 -2.159 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SM* C? C1-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C-RESCUE-BLDC_4_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C-RESCUE-BLDC_4_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BLDC_4-rescue:GND-RESCUE-BLDC_4"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND-RESCUE-BLDC_4"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND-RESCUE-BLDC_4_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND-RESCUE-BLDC_4_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BLDC_4-rescue:R-RESCUE-BLDC_4"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R-RESCUE-BLDC_4"
+				(at 0.1778 0.0254 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R? SM0603 SM0805 R?-* SM1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R-RESCUE-BLDC_4_0_1"
+				(rectangle
+					(start -1.016 3.81)
+					(end 1.016 -3.81)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R-RESCUE-BLDC_4_1_1"
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BLDC_4-rescue:VCC"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.905)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 127 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27c8b837-059b-41e5-9b1d-2089bfef697a")
+	)
+	(junction
+		(at 163.83 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34e02711-eff0-417f-b207-f75dce32368e")
+	)
+	(junction
+		(at 129.54 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "410eab8b-f67e-40c6-867d-5a998b5eb227")
+	)
+	(junction
+		(at 124.46 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "532575c8-1194-4e24-b4a3-668e4825ac2e")
+	)
+	(junction
+		(at 157.48 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "668e04f7-0c7f-4166-ac5e-4d8acf6c18ab")
+	)
+	(junction
+		(at 132.08 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a39562d4-7de2-4412-83aa-f22757f5534d")
+	)
+	(junction
+		(at 129.54 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b07e3b94-031c-4ec1-90a6-c73493252b39")
+	)
+	(junction
+		(at 124.46 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed0e9653-8598-4e9b-846b-900bf0a970e7")
+	)
+	(junction
+		(at 129.54 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edd01797-f89c-497a-9888-ba07c2e42925")
+	)
+	(junction
+		(at 151.13 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbd038db-53b2-4cd6-b346-f131438a748c")
+	)
+	(junction
+		(at 127 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdca7dee-05c3-4636-acfc-b520104112fd")
+	)
+	(wire
+		(pts
+			(xy 163.83 95.25) (xy 167.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eed23a2-ecd2-4d71-9644-bbd7fd71bb30")
+	)
+	(wire
+		(pts
+			(xy 147.32 95.25) (xy 163.83 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8736e9-afb3-4ff2-a131-209eb4005335")
+	)
+	(wire
+		(pts
+			(xy 132.08 95.25) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19aa18a9-e190-43e7-afad-7a372a0cf60c")
+	)
+	(wire
+		(pts
+			(xy 121.92 90.17) (xy 127 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5e03b9-3104-4705-aa71-34c55966befc")
+	)
+	(wire
+		(pts
+			(xy 147.32 90.17) (xy 151.13 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202a5a4c-f631-4b81-9e0a-e239a72fccca")
+	)
+	(wire
+		(pts
+			(xy 132.08 87.63) (xy 132.08 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d17da6-e211-4019-97c5-229b93ba679f")
+	)
+	(wire
+		(pts
+			(xy 132.08 72.39) (xy 132.08 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f689cb-18a8-4de0-a61c-9216b7b4b108")
+	)
+	(wire
+		(pts
+			(xy 129.54 72.39) (xy 129.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd9655b-70ae-4d49-a084-cb925ab09caa")
+	)
+	(wire
+		(pts
+			(xy 157.48 92.71) (xy 157.48 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d6b79c-0fa5-43ee-85a6-b0737750bc9c")
+	)
+	(wire
+		(pts
+			(xy 121.92 95.25) (xy 132.08 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a41778d-1918-4efb-9ec0-d40233d64c1e")
+	)
+	(wire
+		(pts
+			(xy 129.54 97.79) (xy 167.64 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc14faf-fedf-4f1a-8f84-fe06f3f283ab")
+	)
+	(wire
+		(pts
+			(xy 127 90.17) (xy 134.62 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727ca29d-60e5-4732-8604-baa052d2f295")
+	)
+	(wire
+		(pts
+			(xy 129.54 97.79) (xy 129.54 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e384ac-1b54-41b6-9fbb-37448f4ef949")
+	)
+	(wire
+		(pts
+			(xy 163.83 95.25) (xy 163.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e7bf88d-50fc-4fed-81fe-f9731bc6510f")
+	)
+	(wire
+		(pts
+			(xy 151.13 90.17) (xy 167.64 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8192514e-28b3-4418-a8a6-b6a3bab626ff")
+	)
+	(wire
+		(pts
+			(xy 127 72.39) (xy 129.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89cece8e-694b-40d0-b1bf-4c6edb98cbae")
+	)
+	(wire
+		(pts
+			(xy 127 74.93) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8133e7-966c-4b34-bdd8-b4585d90e5bf")
+	)
+	(wire
+		(pts
+			(xy 124.46 72.39) (xy 124.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9baf2b64-dce6-4229-a213-139ee8906e6d")
+	)
+	(wire
+		(pts
+			(xy 124.46 97.79) (xy 129.54 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5827784-821e-4773-a488-81f13af6ab18")
+	)
+	(wire
+		(pts
+			(xy 157.48 92.71) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a910088e-1b3e-4667-96ab-0781f0f38132")
+	)
+	(wire
+		(pts
+			(xy 129.54 92.71) (xy 134.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7da6c0-cef0-4e39-8e71-9d0e7a67c649")
+	)
+	(wire
+		(pts
+			(xy 129.54 87.63) (xy 129.54 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c400000a-e08e-405e-84d8-e00f17311e7a")
+	)
+	(wire
+		(pts
+			(xy 121.92 97.79) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1893d6f-fc16-4f39-b294-483b8a78d7f4")
+	)
+	(wire
+		(pts
+			(xy 124.46 87.63) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c2de43-5b8a-4bc3-b2fd-4bc2e0557568")
+	)
+	(wire
+		(pts
+			(xy 127 87.63) (xy 127 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e19527-ff51-43f6-bebb-5ca91f57f141")
+	)
+	(wire
+		(pts
+			(xy 147.32 92.71) (xy 157.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde3e2ea-2e12-4a1e-9f9d-9b4655a401c3")
+	)
+	(wire
+		(pts
+			(xy 121.92 92.71) (xy 129.54 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe8a1c5-b2a8-4bc9-8999-34541d38a133")
+	)
+	(wire
+		(pts
+			(xy 124.46 72.39) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ce49ae-84cd-4fb3-939d-cf0c282d1511")
+	)
+	(wire
+		(pts
+			(xy 151.13 90.17) (xy 151.13 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bc6709-1deb-45c8-999d-26c3f7328ade")
+	)
+	(wire
+		(pts
+			(xy 129.54 72.39) (xy 132.08 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff59278a-e161-407d-8f79-a6132ef60bac")
+	)
+	(label "TEMP_MOTOR"
+		(at 124.46 97.79 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7d34137-d840-491d-87c4-c1a25ac56b8c")
+	)
+	(hierarchical_label "HALL1_IN"
+		(shape input)
+		(at 121.92 95.25 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "3b9aa6fc-0865-405f-a365-910f144c49c0")
+	)
+	(hierarchical_label "HALL3_OUT"
+		(shape output)
+		(at 167.64 90.17 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "3f3ca5cb-fbb1-451b-be27-c3c7277a1ef4")
+	)
+	(hierarchical_label "TEMP_IN"
+		(shape input)
+		(at 121.92 97.79 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "5e49c4b7-3fec-4830-b209-7e85319751b2")
+	)
+	(hierarchical_label "TEMP_OUT"
+		(shape output)
+		(at 167.64 97.79 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "90e6806b-ccae-4f1f-8d16-1e95b53b7549")
+	)
+	(hierarchical_label "HALL2_IN"
+		(shape input)
+		(at 121.92 92.71 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "97015fd2-c301-4a7e-bf3c-d7742a98d840")
+	)
+	(hierarchical_label "HALL2_OUT"
+		(shape output)
+		(at 167.64 92.71 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "c015fd4a-f1bb-4db9-8556-0964fc3db9c2")
+	)
+	(hierarchical_label "HALL1_OUT"
+		(shape output)
+		(at 167.64 95.25 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "e1227a49-49ec-41f1-b7e7-119a8036d0db")
+	)
+	(hierarchical_label "HALL3_IN"
+		(shape input)
+		(at 121.92 90.17 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "e5c709f5-3be7-4288-9026-ce6faaed4710")
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 124.46 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb581")
+		(property "Reference" "R7"
+			(at 125.73 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 124.46 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d264e924-8eaf-474b-8ab6-ec131925d136")
+		)
+		(pin "2"
+			(uuid "fc782834-3d7d-4614-a9ce-d3dbc361ff32")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 140.97 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb588")
+		(property "Reference" "R8"
+			(at 135.89 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 140.97 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "247761b0-6fdf-4c2f-bd5e-b8426b0dcef3")
+		)
+		(pin "1"
+			(uuid "9196ae6c-f8d8-44df-8da7-17bb12d012b7")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 140.97 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb58f")
+		(property "Reference" "R9"
+			(at 135.89 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 140.97 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 140.97 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40397ad2-df3a-47ff-beca-886d0e725aa1")
+		)
+		(pin "2"
+			(uuid "498f9b23-0666-430b-93d0-525e1bba34ed")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 140.97 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb596")
+		(property "Reference" "R10"
+			(at 135.89 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 140.97 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e51193ce-cd35-48ce-a660-dc75621a5df1")
+		)
+		(pin "1"
+			(uuid "81bac8d4-a846-4c8e-a9ac-364216c1d30e")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:C-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:C-RESCUE-BLDC_4")
+		(at 151.13 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb59d")
+		(property "Reference" "C5"
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4n7"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_c"
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c668d976-a8e1-4ecf-904f-a70d92f05374")
+		)
+		(pin "1"
+			(uuid "70ae35ba-241b-4d39-b1a7-d2fe74587772")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:C-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:C-RESCUE-BLDC_4")
+		(at 157.48 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb5a4")
+		(property "Reference" "C6"
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4n7"
+			(at 158.75 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_c"
+			(at 157.48 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a0b843b-8e4d-439c-a492-de956cf0273f")
+		)
+		(pin "1"
+			(uuid "cd6c830d-1bce-404e-bd57-3b6f5cfca73e")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:C-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:C-RESCUE-BLDC_4")
+		(at 163.83 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb5ab")
+		(property "Reference" "C7"
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4n7"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_c"
+			(at 163.83 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24db7ca0-b8a2-4161-8756-288fab7f2c53")
+		)
+		(pin "2"
+			(uuid "ff1a2328-4523-460a-9166-8feb7cd4f05e")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:GND-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:GND-RESCUE-BLDC_4")
+		(at 151.13 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb5b2")
+		(property "Reference" "#PWR030"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 114.808 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79d5c30b-fb20-4e8f-8920-5a9c51ceae17")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 127 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb5b8")
+		(property "Reference" "R11"
+			(at 128.27 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 127 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f50f804c-58e6-46c1-a44a-301714eb8faf")
+		)
+		(pin "2"
+			(uuid "6922b010-610a-439e-adc0-97b5e239b067")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 129.54 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb5bf")
+		(property "Reference" "R12"
+			(at 130.81 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 129.54 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 129.54 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e480bdbb-9db1-4dbf-bbd8-3395733f251e")
+		)
+		(pin "1"
+			(uuid "fa048f00-e702-4eed-afe5-a8613231db8d")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:R-RESCUE-BLDC_4")
+		(at 132.08 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb5c6")
+		(property "Reference" "R13"
+			(at 133.35 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 132.08 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_r"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a0c4d36-5350-4af1-90e8-b2a878c16727")
+		)
+		(pin "2"
+			(uuid "fe673feb-7ec1-48a5-a35d-7c5cd52a5179")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:C-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:C-RESCUE-BLDC_4")
+		(at 129.54 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb5cd")
+		(property "Reference" "C4"
+			(at 128.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4n7"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRF1:SMD-0603_c"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2555561-fe78-4ecb-a17f-06152850d113")
+		)
+		(pin "2"
+			(uuid "e5315090-c703-4764-aca9-15054559105f")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:GND-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:GND-RESCUE-BLDC_4")
+		(at 129.54 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb5d4")
+		(property "Reference" "#PWR031"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 114.808 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73cbbb49-7684-45ea-9682-6ebf3b5ed02f")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:VCC")
+		(lib_id "BLDC_4-rescue:VCC")
+		(at 124.46 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb5da")
+		(property "Reference" "#PWR032"
+			(at 124.46 69.85 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 123.19 71.12 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25cde400-4b69-4741-b575-9a196e2ba918")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:GND-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:GND-RESCUE-BLDC_4")
+		(at 157.48 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb5f9")
+		(property "Reference" "#PWR033"
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 114.808 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e9926d8-685c-40d0-b2ea-4e31bd3083ba")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BLDC_4-rescue:GND-RESCUE-BLDC_4")
+		(lib_id "BLDC_4-rescue:GND-RESCUE-BLDC_4")
+		(at 163.83 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000053fbb5ff")
+		(property "Reference" "#PWR034"
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 114.808 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db019aed-af3a-4baf-ada1-f3fab7bbf8cf")
+		)
+		(instances
+			(project "BLDC_4"
+				(path "/cda899b4-fc83-4987-b5f4-c636c7fb9d7d/00000000-0000-0000-0000-000053fba77e"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
